@@ -3,7 +3,11 @@ version: 2
 sources:
   - name: jaffle_shop
     database: raw
+    description: A clone of a Databricks application database.
     tables:
       - name: customers
+        description: Raw customers data.
       - name: orders
+        description: Raw orders data.
       - name: payments
+        description: Raw payments data.
